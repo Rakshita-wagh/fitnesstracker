@@ -38,7 +38,7 @@ const  CreateExercises = ()=>{
     }
 
     return (
-       <div className='container' style={{ width: '40%' }}>
+       <div className='container mt-4 p-4 ' style={{ width: '30%',background:'#D3D3D3' }}>
         <h3>Create Exercises</h3>
         <br/>
         <form styles={{flex:1}} onSubmit={(e)=>handleSubmit(e)}>
@@ -76,6 +76,7 @@ const  CreateExercises = ()=>{
                         className='form-control'
                         value={duration}
                         onChange={e => setDuration(e.target.value)}
+                        style={{width:'300px'}}
                     />
                 </div>
                 <br/>
