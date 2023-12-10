@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { addExercise, getUsers } from './Services/api';
+import { addExercise, getUsers } from '../Services/api';
 
 
 const  CreateExercises = ()=>{
